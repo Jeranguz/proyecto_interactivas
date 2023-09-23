@@ -1,0 +1,14 @@
+:root{
+
+--ff-mon: 'Montserrat', sans-serif;
+--ff-nor: 'Nordvest', sans-serif;
+
+--fw-black: 900;
+--fs-md: 1.2rem; /* navigation */
+--fs-title: 6.5rem;
+--fs-subtitle: 5rem;
+--fw-md: 500;
+
+--clr-main: hsl(218, 31%, 26%);
+--clr-featured: hsl(219, 16%, 50%);
+}
