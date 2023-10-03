@@ -1,0 +1,40 @@
+.featured-section{
+    padding: 4rem 0;
+}
+.main-section{
+    background: var(--clr-main);
+}
+.featured-container{
+    display: flex;
+    width: 103rem;
+    margin: auto;
+    justify-content: space-around;
+    position: relative;
+}
+.food-container{
+    width: 22.88rem;
+    height: 30rem;
+    background: var(--clr-featured);
+    border-radius: 6rem;
+    text-align: center;
+}
+.caracteristics-container{
+    background: var(--clr-caracteristcs);
+    width: 93.154rem;
+    height: 34.194rem;
+    margin: auto;
+    border-radius: 7rem;
+    justify-content: space-around;
+    display: flex;
+}
+.carrousel-arrows-container{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 108%;
+    height: 87%;
+}
+.navigation-lists{
+    display: flex;
+    gap: 2rem;
+}

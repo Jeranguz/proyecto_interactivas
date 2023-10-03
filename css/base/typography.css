@@ -1,0 +1,34 @@
+.main-title{
+    font-family: var(--ff-nor);
+    font-weight: var(--fw-black);
+    font-size: var(--fs-title);
+    width: 20ch;
+    margin: auto;
+}
+.main-text{
+    font-family: var(--ff-mon);
+    font-size: 1.5rem;
+}
+.featured-text{
+    font-family: var(--ff-nor);
+    font-size: var(--fs-subtitle);
+    font-weight: var(--fw-black);
+    text-align: center;
+    margin: 0 0 2rem 0;
+
+}
+.food-text{
+    font-family: var(--ff-mon);
+    font-size: 3rem;
+    font-weight: var(--fw-md);
+    margin: 0;
+    padding: 1rem 0 1rem;
+}
+.food-description{
+    font-family: var(--ff-mon);
+    font-size: 1.2rem;
+    font-weight: var(--fw-md);
+    margin: auto;
+    padding-bottom: 2.8rem;
+    width: 26ch;
+}

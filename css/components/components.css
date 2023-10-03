@@ -1,0 +1,26 @@
+.details-buttom{
+    font-family: var(--ff-mon);
+    font-size: 1.4rem;
+    font-weight: var(--fw-md);
+    padding: 1rem 2rem;
+    background: var(--clr-buttom);
+    border-radius: 3rem;
+    text-decoration: none;
+    color: white;
+}
+/* .carousel-arrow-left{
+    background: url(../../img/left-arrow.png);
+}
+.carousel-arrow-right{
+    background: url(../../img/right-arrow.png);
+}    */
+.carousel-arrow{
+    background: none;
+    border-style: none;
+}
+.sign-in{
+    padding: 1rem 1.5rem;
+    color: white;
+    border-radius: 4rem;
+    background: var(--clr-caracteristcs);
+}

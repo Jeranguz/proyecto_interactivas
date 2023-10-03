@@ -1,0 +1,27 @@
+.top-nav{
+    display: flex;
+    align-items: center;
+    padding: 1rem 4.125rem;
+    margin-bottom: 10rem;
+    background: white;
+    justify-content: space-between;
+}
+.logo{
+    
+}
+.navigation-list{
+    display: flex;
+    gap: 4rem;
+    list-style-type: none;
+    align-items: center;
+}
+.navigation-element{
+    text-decoration: none;
+    color: black;
+    font-family: var(--ff-mon);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-md);
+}
+.navigation-login{
+    gap: 2rem;
+}
