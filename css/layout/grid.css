@@ -19,14 +19,27 @@
     text-align: center;
 }
 .caracteristics-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  
     background: var(--clr-caracteristcs);
-    width: 93.154rem;
-    height: 34.194rem;
     margin: auto;
     border-radius: 7rem;
-    justify-content: space-around;
-    display: flex;
+    max-width: 78vw;
 }
+
+.center{
+    display: grid;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.625rem;
+    padding-right: 1.625rem;
+    text-align: center;
+
+}
+
+
 .carrousel-arrows-container{
     display: flex;
     position: absolute;
@@ -38,3 +51,90 @@
     display: flex;
     gap: 2rem;
 }
+
+
+.our-porpuse-container{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    max-width: 78vw;
+    gap: 1rem;
+    margin-top: 5.75rem;
+}
+
+.our-porpuse-section{
+    display: grid;
+    padding: 1rem;
+}
+
+
+
+/*Pagina2*/
+
+.order-container{
+    display: grid;
+    background-color: var(--clr-caracteristcs);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 4rem;
+}
+
+
+
+.dish-details-container{
+    display: grid;
+    padding: 3rem;
+    margin-top: 3rem;
+}
+   
+
+ .dish-details-thumb{
+    margin-top: 2rem;
+    display: flex;
+    position: relative;
+    padding: 0 1rem;
+  
+    
+ }
+
+
+
+ .orden-now-container{
+    display: grid;
+    
+ }
+
+ .caracteristics-dishes{
+    display: grid;
+ }
+
+ .dishes-caracteristics-container{
+    display: grid;
+    align-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+ }
+
+ .dishes-caracteristics{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 55px;
+    padding: 0;
+    margin: 0;
+ }
+
+ .buy-caracteristics-container{
+    display: grid;
+    padding: 3rem;
+    margin-top: 3rem
+ }
+
+ .buy-container{
+    padding: 3rem;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ /*Pagina2*/

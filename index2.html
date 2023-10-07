@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>details</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    <style>
+        .section2 {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            text-align: center;
+            height: 44rem;
+        }
+
+        /* Estilo para los elementos dentro de las columnas */
+        .row {
+            display: flex; /* Alinea el icono y el texto horizontalmente */
+            box-sizing: border-box;
+            height: 50%;
+            
+        }
+
+        .categories{
+            display: grid;
+            gap: 0.5rem;
+            align-content: center;
+
+        }
+
+        .icon {
+           width: 55px;
+           height: 55px;
+        }
+
+        .thumb-img{
+            width: 100%;
+           
+             
+        }
+
+        .image{
+            width: 80%;
+            margin: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <a class="logo" href="#"><img src="./img/logo.png" alt="Restaurant logo"></a>
+            <div class="navigation-lists">
+            <ul class="navigation-list">
+                <li><a class="navigation-element" href="#">About Us</a></li>
+                <li><a class="navigation-element" href="#">Menu</a></li>
+                <li><a class="navigation-element" href="#">Reviews</a></li>
+                <li><a class="navigation-element" href="#">Location</a></li>
+            </ul>
+            <ul class="navigation-list navigation-login">
+                <li><a class="sign-in navigation-element" href="#">Sign up</a></li>
+                <li><a class="navigation-element" href="#">Login</a></li>
+            </ul>
+            </div>
+            <img class="search-img" src="./img/lupa.png" alt="Lupa">
+        </nav>
+    </header>
+
+
+
+    
+
+    <main>
+        <div class="order-container">
+           
+                
+            <section class="section2">
+                <div class="row thumb-img">
+                    <img src="/img/food-example.png" alt="" class="image"> 
+                </div>
+                
+    
+                <div class="row ">
+                    <div class="center-text"> 
+                        <p class="food-text"> Farikal</p>
+                        <p class="details-dish-text"> Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el dis  </p>
+                        
+                    </div>
+                        
+                        
+                    
+                </div>
+    
+            </section>
+
+    
+            <section class="section2">
+                <div class="row categories">
+                    <section>
+                        <div class="dishes-caracteristics">
+                            <img class="caracteristics-img" src="img/heart.svg" alt="">
+                            <p class="caracteristics-text"> Feautured</p>
+                        </div>
+    
+                        <div class="dishes-caracteristics">
+                            
+                            <img class="caracteristics-img" src="img/categories.svg" alt="">
+                            <p  class="caracteristics-text"> Vegetables</p>
+                        </div>
+    
+                        <div class="dishes-caracteristics">
+                            <img class="caracteristics-img" src="img/heart.svg" alt="">
+                            <p class="caracteristics-text"> Feautured</p>
+                        </div>
+    
+                    </section>   
+                </div>
+                <div class=" row">
+                    <a class="button-orderNow"href=" "> Order Now </a>
+                </div>
+
+
+         </div>
+
+    </main>
+    
+</body>
+</html>

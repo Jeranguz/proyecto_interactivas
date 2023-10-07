@@ -24,3 +24,35 @@
     border-radius: 4rem;
     background: var(--clr-caracteristcs);
 }
+
+.flags-img{
+    width: 100%;
+   
+}
+
+  .dish-details-img{
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.button-orderNow{
+    border: solid #EB593B;
+    font-family: var(--ff-mon);
+    font-weight: var(--fw-md);
+    font-size: 4rem;
+    border-radius: 3rem;
+    border-width: .4rem;
+    text-decoration: none;
+    text-wrap: nowrap;
+    cursor: pointer;
+    color: #EB593B;
+    margin: auto;
+    padding: 1rem;
+    
+}
+
+.caracteristics-img{
+    width: 2.5rem;
+    height: 2.5rem;
+}

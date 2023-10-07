@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     padding: 1rem 4.125rem;
-    margin-bottom: 10rem;
     background: white;
     justify-content: space-between;
 }
@@ -21,6 +20,8 @@
     font-family: var(--ff-mon);
     font-size: var(--fs-md);
     font-weight: var(--fw-md);
+    align-content: center;
+    text-wrap: nowrap;
 }
 .navigation-login{
     gap: 2rem;
