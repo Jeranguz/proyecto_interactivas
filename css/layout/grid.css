@@ -57,7 +57,7 @@
     display: grid;
     margin: auto;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    max-width: 78vw;
+   width: 78vw;
     gap: 1rem;
     margin-top: 5.75rem;
 }
@@ -65,6 +65,7 @@
 .our-porpuse-section{
     display: grid;
     padding: 1rem;
+    margin: auto;
 }
 
 
