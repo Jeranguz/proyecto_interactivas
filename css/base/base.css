@@ -2,6 +2,6 @@ body{
     margin: 0;
     padding: 0;
     background-color: var(--clr-main);
-    color: white;
+    color: var(--clr-white);
 }
 

@@ -10,7 +10,7 @@
 .main-text{
     font-family: var(--ff-mon);
     font-size: 1.5rem;
-    margin: 0;
+    margin-bottom: 7rem;
 }
 .featured-text{
     font-family: var(--ff-nor);

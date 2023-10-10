@@ -1,3 +1,15 @@
+.btn-explore{
+    color: var(--clr-white);
+    display: flex;
+    font-family: var(--ff-mon);
+    font-size: 2.5rem;
+    font-weight: var(--fw-md);
+    text-decoration: none;
+    align-items: center;
+    background: var(--clr-buttom);
+    padding: 0.7rem 3.5rem;
+    border-radius: 2.5rem;
+}
 .details-buttom{
     font-family: var(--ff-mon);
     font-size: 1.4rem;
@@ -6,7 +18,7 @@
     background: var(--clr-buttom);
     border-radius: 3rem;
     text-decoration: none;
-    color: white;
+    color: var(--clr-white);
 }
 /* .carousel-arrow-left{
     background: url(../../img/left-arrow.png);
@@ -17,10 +29,11 @@
 .carousel-arrow{
     background: none;
     border-style: none;
+    cursor: pointer;
 }
 .sign-in{
     padding: 1rem 1.5rem;
-    color: white;
+    color: var(--clr-white);
     border-radius: 4rem;
     background: var(--clr-caracteristcs);
 }
@@ -37,7 +50,7 @@
 }
 
 .button-orderNow{
-    border: solid #EB593B;
+    border: solid var(--clr-buttom);
     font-family: var(--ff-mon);
     font-weight: var(--fw-md);
     font-size: 4rem;
@@ -46,7 +59,7 @@
     text-decoration: none;
     text-wrap: nowrap;
     cursor: pointer;
-    color: #EB593B;
+    color: var(--clr-buttom);
     margin: auto;
     padding: 1rem;
     

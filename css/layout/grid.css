@@ -45,7 +45,7 @@
     position: absolute;
     justify-content: space-between;
     width: 108%;
-    height: 87%;
+    margin-top: 12rem;
 }
 .navigation-lists{
     display: flex;
@@ -66,6 +66,13 @@
     display: grid;
     padding: 1rem;
     margin: auto;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
 }
 
 
@@ -137,5 +144,6 @@
     align-items: center;
     text-align: center;
  }
+
 
  /*Pagina2*/

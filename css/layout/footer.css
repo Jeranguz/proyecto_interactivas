@@ -14,7 +14,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
     gap: 1rem;
-    color: white;
+    color: var(--clr-white);
     text-align: center;
     font-family:var(--ff-mon);
     font-weight: var(--fw-md);
@@ -23,7 +23,7 @@
 
 .nav-bottom-link {
     text-decoration: none;
-    color: white;
+    color: var(--clr-white);
     list-style: none;
     font-family:var(--ff-mon);
     font-weight: 100;
@@ -49,6 +49,8 @@
 
 .follow-text{
     margin: 0;
+    font-family: var(--ff-nor);
+    font-weight: var(--fw-md);
 }
 
 .social-network-links{

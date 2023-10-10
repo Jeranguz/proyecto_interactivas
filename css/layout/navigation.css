@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     padding: 1rem 4.125rem;
-    background: white;
+    background: var(--clr-white);
     justify-content: space-between;
 }
 .logo{
@@ -16,7 +16,7 @@
 }
 .navigation-element{
     text-decoration: none;
-    color: black;
+    color: var(--clr-black);
     font-family: var(--ff-mon);
     font-size: var(--fs-md);
     font-weight: var(--fw-md);
