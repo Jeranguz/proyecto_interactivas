@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -38,37 +40,48 @@
         </div>
     </header>
     <main>
-        <section class="featured-section">
+        <section class="swiper mySwiper featured-section">
             <h2 class="featured-text">Our best dishes</h2>
-            <div class="featured-container">
-            <div class="food-container">
+            <div class="swiper-wrapper featured-container">
+            <div class="swiper-slide food-container">
                 <img class="featured-img" src="./img/food-example.png" alt="Food">
                 <h3 class="food-text">Fårikål</h3>
                 <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
                 <a class="details-buttom" href="#">See details</a>
             </div>
-            <div class="food-container">
+            <div class="swiper-slide food-container">
                 <img class="featured-img" src="./img/food-example.png" alt="Food">
                 <h3 class="food-text">Fårikål</h3>
                 <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
                 <a class="details-buttom" href="#">See details</a>
             </div>
-            <div class="food-container">
+            <div class="swiper-slide food-container">
                 <img class="featured-img" src="./img/food-example.png" alt="Food">
                 <h3 class="food-text">Fårikål</h3>
                 <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
                 <a class="details-buttom" href="#">See details</a>
             </div>
-            <div class="carrousel-arrows-container">
-                <button class="carousel-arrow">
-                    <img src="./img/left-arrow.png" alt="">
-                </button>
-                <button class="carousel-arrow">
-                    <img src="./img/right-arrow.png" alt="">
-                </button>
+            <div class="swiper-slide food-container">
+                <img class="featured-img" src="./img/food-example.png" alt="Food">
+                <h3 class="food-text">Fårikål</h3>
+                <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
+                <a class="details-buttom" href="#">See details</a>
+            </div>
+            <div class="swiper-slide food-container">
+                <img class="featured-img" src="./img/food-example.png" alt="Food">
+                <h3 class="food-text">Fårikål</h3>
+                <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
+                <a class="details-buttom" href="#">See details</a>
+            </div>
+            <div class="swiper-slide food-container">
+                <img class="featured-img" src="./img/food-example.png" alt="Food">
+                <h3 class="food-text">Fårikål</h3>
+                <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
+                <a class="details-buttom" href="#">See details</a>
             </div>
             </div>
-
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </section>
         <div class="caracteristics-container">
             <section class="center">
@@ -158,6 +171,21 @@
         </footer>
 
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      centeredSlides: true,
+      spaceBetween: 8,
+      
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+</script>
 </body>
 
 </html>

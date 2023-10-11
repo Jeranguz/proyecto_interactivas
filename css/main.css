@@ -18,5 +18,17 @@
     border-top-right-radius: 6rem;
     border-top-left-radius: 6rem;
 }
+.swiper{
+    width: 90%;
+}
+.swiper-button-next{
+    color: var(--clr-buttom);
+}
+.swiper-button-prev{
+    color: var(--clr-buttom);
+}
+.divxd{
+    position: relative;
+}
 
 
