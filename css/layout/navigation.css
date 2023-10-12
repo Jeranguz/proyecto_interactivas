@@ -1,12 +1,12 @@
 .top-nav{
     display: flex;
     align-items: center;
-    padding: 1rem 4.125rem;
+    padding: 0.5rem 4.125rem;
     background: var(--clr-white);
     justify-content: space-between;
 }
 .logo{
-  margin: auto;
+  height: 7rem;
 }
 .navigation-list{
     display: flex;

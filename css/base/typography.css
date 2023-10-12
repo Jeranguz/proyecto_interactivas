@@ -2,14 +2,15 @@
     font-family: var(--ff-nor);
     font-weight: var(--fw-black);
     font-size: var(--fs-title);
-    width: 20ch;
+    /* width: clamp(15rem, 20ch, 30rem); Establece un rango de ancho */
     margin: auto;
     margin-top: 10rem;
     margin-bottom: 1rem;
+    padding: 0 12rem;
 }
 .main-text{
     font-family: var(--ff-mon);
-    font-size: 1.5rem;
+    font-size: var(--fs-main-text);
     margin-bottom: 7rem;
 }
 .featured-text{

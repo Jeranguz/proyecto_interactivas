@@ -18,7 +18,7 @@
 <body>
     <header class="header-container">
         <nav class="top-nav">
-            <a href="#"><img src="./img/logo.png" alt="Restaurant logo"></a>
+            <a href="#"><img class="logo" src="./img/logo.png" alt="Restaurant logo"></a>
             <div class="navigation-lists">
             <ul class="navigation-list">
                 <li><a class="navigation-element" href="#">About Us</a></li>
@@ -40,47 +40,63 @@
         </div>
     </header>
     <main>
-        <section class="swiper mySwiper featured-section">
+        <section style="position: relative;">
+            <div class= "swiper mySwiper featured-section">
             <h2 class="featured-text">Our best dishes</h2>
             <div class="swiper-wrapper featured-container">
-            <div class="swiper-slide food-container">
+
+            <div class="swiper-slide food-holder">
+                <div class=" food-container">
                 <img class="featured-img" src="./img/food-example.png" alt="Food">
                 <h3 class="food-text">Fårikål</h3>
                 <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
                 <a class="details-buttom" href="#">See details</a>
             </div>
-            <div class="swiper-slide food-container">
+        </div>
+        <div class="swiper-slide food-holder">
+            <div class=" food-container">
                 <img class="featured-img" src="./img/food-example.png" alt="Food">
-                <h3 class="food-text">Fårikål</h3>
+                <h3 class="food-text">2</h3>
                 <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
                 <a class="details-buttom" href="#">See details</a>
             </div>
-            <div class="swiper-slide food-container">
+        </div>
+        <div class="swiper-slide food-holder">
+            <div class=" food-container">
                 <img class="featured-img" src="./img/food-example.png" alt="Food">
-                <h3 class="food-text">Fårikål</h3>
+                <h3 class="food-text">3</h3>
                 <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
                 <a class="details-buttom" href="#">See details</a>
             </div>
-            <div class="swiper-slide food-container">
+        </div>
+        <div class="swiper-slide food-holder">
+            <div class=" food-container">
                 <img class="featured-img" src="./img/food-example.png" alt="Food">
-                <h3 class="food-text">Fårikål</h3>
+                <h3 class="food-text">4</h3>
                 <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
                 <a class="details-buttom" href="#">See details</a>
             </div>
-            <div class="swiper-slide food-container">
+        </div>
+        <div class="swiper-slide food-holder">
+            <div class=" food-container">
                 <img class="featured-img" src="./img/food-example.png" alt="Food">
-                <h3 class="food-text">Fårikål</h3>
+                <h3 class="food-text">5</h3>
                 <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
                 <a class="details-buttom" href="#">See details</a>
             </div>
-            <div class="swiper-slide food-container">
+        </div>
+        <div class="swiper-slide food-holder">
+            <div class=" food-container">
                 <img class="featured-img" src="./img/food-example.png" alt="Food">
-                <h3 class="food-text">Fårikål</h3>
+                <h3 class="food-text">6</h3>
                 <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
                 <a class="details-buttom" href="#">See details</a>
             </div>
+        </div>
             </div>
-            <div class="swiper-button-next"></div>
+            
+        </div>
+        <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </section>
         <div class="caracteristics-container">
@@ -176,15 +192,36 @@
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 4,
-      centeredSlides: true,
-      spaceBetween: 8,
+      slidesPerView: 3,
+      centeredSlides: false,
+      spaceBetween: 160,
       
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
     });
+
+    function updateSlidesPerView() {
+  if (window.innerWidth < 768) { // Tamaño de pantalla de referencia (puedes ajustarlo)
+    swiper.params.slidesPerView = 1; // Cambiar a 1 slide en pantallas más pequeñas
+    swiper.params.spaceBetween = 20;
+  } else if (window.innerWidth < 1024) { // Otro tamaño de pantalla de referencia (ajusta según tus necesidades)
+    swiper.params.slidesPerView = 2; // Cambiar a 2 slides en pantallas medianas
+    swiper.params.spaceBetween = 30;
+  } else {
+    swiper.params.slidesPerView = 3; // Volver a 3 slides en pantallas más grandes
+    swiper.params.spaceBetween = 160;
+  }
+
+  swiper.update(); // Actualizar el carrusel
+}
+
+// Llama a la función cuando la ventana cambie de tamaño
+window.addEventListener('resize', updateSlidesPerView);
+
+// Llama a la función al cargar la página para establecer el valor inicial
+updateSlidesPerView();
 </script>
 </body>
 

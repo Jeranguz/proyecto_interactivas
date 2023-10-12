@@ -2,7 +2,7 @@
     color: var(--clr-white);
     display: flex;
     font-family: var(--ff-mon);
-    font-size: 2.5rem;
+    font-size: var(--fs-main-text);
     font-weight: var(--fw-md);
     text-decoration: none;
     align-items: center;

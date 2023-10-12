@@ -19,7 +19,8 @@
     border-top-left-radius: 6rem;
 }
 .swiper{
-    width: 90%;
+    width: 80%;
+    
 }
 .swiper-button-next{
     color: var(--clr-buttom);
@@ -31,4 +32,27 @@
     position: relative;
 }
 
+@media (max-width: 767.98px){
+    .navigation-lists{
+        display: none;
+    }
+    .top-nav{
+        padding: 0.5rem 1rem;
+    }
+    .main-title{
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+        font-size: 3rem;
+        padding: 0;
+    }
+    .header-container{
+        height: 45rem; 
+    }
+    .our-porpuse-container {
+        width: 93vw;
+    }
+    .swiper{
+        width: 100%;
+    }
+}
 

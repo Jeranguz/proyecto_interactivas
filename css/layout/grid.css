@@ -8,8 +8,7 @@
     display: flex;
     width: 103rem;
     margin: auto;
-    justify-content: space-around;
-    position: relative;
+    
 }
 .food-container{
     width: 22.88rem;
