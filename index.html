@@ -13,6 +13,41 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="./css/main.css">
+
+    <style>
+     
+        .swiper-hero {
+          display: flex;
+          width: 80vw ;
+          margin: auto;
+          padding-bottom: 2rem;
+          padding-top: 2rem;
+          justify-content: center;
+          margin-top: 4rem;
+          margin-bottom: 4rem;
+        }
+
+        @media (max-width: 767.98px){
+            .swiper-hero {
+          display: flex;
+          width: 100% ;
+          margin: auto;
+          justify-content: center;
+          margin-top: 4rem;
+          margin-bottom: 4rem;
+        }
+
+        }
+  
+        .swiper-hero .swiper-slide {
+          width: 350px;
+          display: flex;
+           justify-content: center; 
+             align-items: center;    
+              text-align: center;   
+        }
+      </style>
+
 </head>
 
 <body>
@@ -40,65 +75,79 @@
         </div>
     </header>
     <main>
-        <section style="position: relative;">
-            <div class= "swiper mySwiper featured-section">
-            <h2 class="featured-text">Our best dishes</h2>
-            <div class="swiper-wrapper featured-container">
-
-            <div class="swiper-slide food-holder">
-                <div class=" food-container">
-                <img class="featured-img" src="./img/food-example.png" alt="Food">
-                <h3 class="food-text">Fårikål</h3>
-                <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
-                <a class="details-buttom" href="#">See details</a>
+        <div class="swiper swiper-hero">
+          
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                  <div class=" food-container" ">
+                      <img class= "featured-img" src="./img/food-example.png" alt="Food" >
+                      <h3 class="food-text">Fårikål</h3>
+                      <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
+                      <a class="details-buttom" href="#">See details</a>
+                  </div>
+                
+              </div>
+              <div class="swiper-slide">
+      
+                  <div class=" food-container">
+                      <img class="featured-img" src="./img/food-example.png" alt="Food">
+                      <h3 class="food-text">2</h3>
+                      <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
+                      <a class="details-buttom" href="#">See details</a>
+                  </div>
+                
+              </div>
+              <div class="swiper-slide">
+      
+                  <div class=" food-container">
+                      <img class="featured-img" src="./img/food-example.png" alt="Food">
+                      <h3 class="food-text">3</h3>
+                      <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
+                      <a class="details-buttom" href="#">See details</a>
+                  </div>
+                
+              </div>
+      
+              <div class="swiper-slide">
+                  <div class=" food-container">
+                      <img class="featured-img" src="./img/food-example.png" alt="Food">
+                      <h3 class="food-text">4</h3>
+                      <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
+                      <a class="details-buttom" href="#">See details</a>
+                  </div>
+                
+              </div>
+              <div class="swiper-slide">
+      
+                  <div class=" food-container">
+                      <img class="featured-img" src="./img/food-example.png" alt="Food">
+                      <h3 class="food-text">5</h3>
+                      <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
+                      <a class="details-buttom" href="#">See details</a>
+                  </div>
+                
+              </div>
+              <div class="swiper-slide">
+      
+                  <div class=" food-container">
+                      <img class="featured-img" src="./img/food-example.png" alt="Food">
+                      <h3 class="food-text">6</h3>
+                      <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
+                      <a class="details-buttom" href="#">See details</a>
+                  </div>
+                
+              </div>    
             </div>
-        </div>
-        <div class="swiper-slide food-holder">
-            <div class=" food-container">
-                <img class="featured-img" src="./img/food-example.png" alt="Food">
-                <h3 class="food-text">2</h3>
-                <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
-                <a class="details-buttom" href="#">See details</a>
-            </div>
-        </div>
-        <div class="swiper-slide food-holder">
-            <div class=" food-container">
-                <img class="featured-img" src="./img/food-example.png" alt="Food">
-                <h3 class="food-text">3</h3>
-                <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
-                <a class="details-buttom" href="#">See details</a>
-            </div>
-        </div>
-        <div class="swiper-slide food-holder">
-            <div class=" food-container">
-                <img class="featured-img" src="./img/food-example.png" alt="Food">
-                <h3 class="food-text">4</h3>
-                <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
-                <a class="details-buttom" href="#">See details</a>
-            </div>
-        </div>
-        <div class="swiper-slide food-holder">
-            <div class=" food-container">
-                <img class="featured-img" src="./img/food-example.png" alt="Food">
-                <h3 class="food-text">5</h3>
-                <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
-                <a class="details-buttom" href="#">See details</a>
-            </div>
-        </div>
-        <div class="swiper-slide food-holder">
-            <div class=" food-container">
-                <img class="featured-img" src="./img/food-example.png" alt="Food">
-                <h3 class="food-text">6</h3>
-                <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
-                <a class="details-buttom" href="#">See details</a>
-            </div>
-        </div>
-            </div>
-            
-        </div>
-        <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+    
             <div class="swiper-button-prev"></div>
-        </section>
+            <div class="swiper-button-next"></div>
+          </div>
+
+        
+
+
         <div class="caracteristics-container">
             <section class="center">
                 <h3 class="nv-md">Fresh food</h3>
@@ -123,7 +172,7 @@
             <section class="our-porpuse-section">
                 <div class="center">
                     <h2 class="featured-text">Our purpose</h2>
-                <p class="main-text">
+                <p class="porpuse-text">
                     We Want to offer our guests the best
                     of the Nordic tradition, which is why
                     we focus on even the smallest detail
@@ -133,7 +182,10 @@
             </section>
 
             <section class="our-porpuse-section ">
-                <img src="./img/flags.png" alt="" class="flags-img">
+                <div>
+                    <img src="./img/flags.png" alt="" class="flags-img">
+                </div>
+                
             </section>
         </section>
 
@@ -187,42 +239,60 @@
         </footer>
 
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      centeredSlides: false,
-      spaceBetween: 160,
-      
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper-hero", {
+        // Optional parameters
+        slidesPerView: 1,
+        spaceBetween: 55,
+       loopAdditionalSlides:5,
+       parallax: true,
+        
+        loop: true,
 
-    function updateSlidesPerView() {
-  if (window.innerWidth < 768) { // Tamaño de pantalla de referencia (puedes ajustarlo)
-    swiper.params.slidesPerView = 1; // Cambiar a 1 slide en pantallas más pequeñas
-    swiper.params.spaceBetween = 20;
-  } else if (window.innerWidth < 1024) { // Otro tamaño de pantalla de referencia (ajusta según tus necesidades)
-    swiper.params.slidesPerView = 2; // Cambiar a 2 slides en pantallas medianas
-    swiper.params.spaceBetween = 30;
-  } else {
-    swiper.params.slidesPerView = 3; // Volver a 3 slides en pantallas más grandes
-    swiper.params.spaceBetween = 160;
-  }
+        autoplay: {
+          delay: 1500,
 
-  swiper.update(); // Actualizar el carrusel
-}
+          pauseOnMouseEnter: true,
+          disableOnInteraction: false,
+        },
 
-// Llama a la función cuando la ventana cambie de tamaño
-window.addEventListener('resize', updateSlidesPerView);
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
 
-// Llama a la función al cargar la página para establecer el valor inicial
-updateSlidesPerView();
-</script>
+        
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        breakpoints:{
+
+          680: {
+            slidesPerView: 1,
+            spaceBetween:20, 
+        },
+
+          950: {
+            slidesPerView: 2,
+            spaceBetween:20, 
+
+          },
+
+        1600: {
+          slidesPerView: 3,
+            spaceBetween:20, 
+        },
+
+        },
+
+      });
+    </script>
+   
+
 </body>
 
 </html>

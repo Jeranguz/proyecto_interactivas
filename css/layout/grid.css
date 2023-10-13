@@ -10,13 +10,20 @@
     margin: auto;
     
 }
-.food-container{
+
+.food-container {
     width: 22.88rem;
     height: 30rem;
     background: var(--clr-featured);
     border-radius: 6rem;
     text-align: center;
-}
+    padding-bottom: 2rem;
+    transition: transform 0.3s ease; /* Agrega una transición suave a la escala */
+  }
+  
+  .food-container:hover {
+    transform: scale(1.1); /* Escala al 110% en el evento hover */
+  }
 .caracteristics-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -60,6 +67,8 @@
     gap: 1rem;
     margin-top: 5.75rem;
 }
+
+
 
 .our-porpuse-section{
     display: grid;
