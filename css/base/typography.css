@@ -80,4 +80,14 @@
   
 
 }
+/* Menu */
+.menu-title{
+    font-family: var(--ff-nor);
+    font-size: var(--fs-title);
+    text-align: center;
+}
+.category-title{
+    font-family: var(--ff-nor);
+    font-size: var(--fs-title);
+}
 

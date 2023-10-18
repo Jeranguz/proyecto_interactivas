@@ -18,9 +18,13 @@
     border-radius: 6rem;
     text-align: center;
     padding-bottom: 2rem;
+    transition: transform 0.3s ease;
     
   }
   
+  .food-container:hover {
+    transform: scale(1.1); /* Escala al 110% en el evento hover */
+  }
  
 .caracteristics-container{
     display: grid;
@@ -87,3 +91,13 @@
 
 
  /*Pagina2*/
+
+ /* Menu */
+ .category-section{
+    padding: 0 6rem;
+}
+.category-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}

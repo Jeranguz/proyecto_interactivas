@@ -9,10 +9,8 @@
 @import url('./layout/footer.css');
 
 @import url('./components/components.css');
-
-
-.search-img{
-    
+body{
+    background: var(--clr-caracteristcs);
 }
 .featured-img{
     border-top-right-radius: 6rem;
