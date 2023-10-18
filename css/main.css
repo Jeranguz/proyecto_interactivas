@@ -9,12 +9,17 @@
 @import url('./layout/footer.css');
 
 @import url('./components/components.css');
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: var(--clr-caracteristcs);
 }
 .featured-img{
     border-top-right-radius: 6rem;
     border-top-left-radius: 6rem;
+    width: 100%;
 }
 .swiper{
     width: 80%;
@@ -53,6 +58,13 @@ body{
        margin-right: 1rem;
        
     }
+    .food-container{
+        width: 19.88rem;
+        transition: none;
+    }
+    .food-container:hover {
+        transform: none; /* Escala al 110% en el evento hover */
+      }
 
   
   

@@ -24,6 +24,22 @@
     align-content: center;
     text-wrap: nowrap;
 }
+.navigation-category-div{
+    margin: auto;
+}
+.navigation-category{
+    display: flex;
+    align-items: center;
+    background: var(--clr-buttom);
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navigation-category-element{
+    color: var(--clr-white);
+    font-size: 4vw;
+}
 .navigation-login{
     gap: 2rem;
 }

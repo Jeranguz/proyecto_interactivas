@@ -85,6 +85,7 @@
     font-family: var(--ff-nor);
     font-size: var(--fs-title);
     text-align: center;
+    margin-bottom: 0;
 }
 .category-title{
     font-family: var(--ff-nor);

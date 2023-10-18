@@ -17,7 +17,6 @@
     background: var(--clr-featured);
     border-radius: 6rem;
     text-align: center;
-    padding-bottom: 2rem;
     transition: transform 0.3s ease;
     
   }
@@ -94,7 +93,8 @@
 
  /* Menu */
  .category-section{
-    padding: 0 6rem;
+    width: 80vw;
+    margin: auto;
 }
 .category-container{
     display: grid;
