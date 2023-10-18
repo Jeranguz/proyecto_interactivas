@@ -18,12 +18,10 @@
     border-radius: 6rem;
     text-align: center;
     padding-bottom: 2rem;
-    transition: transform 0.3s ease; /* Agrega una transición suave a la escala */
+    
   }
   
-  .food-container:hover {
-    transform: scale(1.1); /* Escala al 110% en el evento hover */
-  }
+ 
 .caracteristics-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -68,8 +66,6 @@
     margin-top: 5.75rem;
 }
 
-
-
 .our-porpuse-section{
     display: grid;
     padding: 1rem;
@@ -87,71 +83,7 @@
 
 /*Pagina2*/
 
-.order-container{
-    display: grid;
-    background-color: var(--clr-caracteristcs);
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-    padding: 4rem;
-}
 
-
-
-.dish-details-container{
-    display: grid;
-    padding: 3rem;
-    margin-top: 3rem;
-}
-   
-
- .dish-details-thumb{
-    margin-top: 2rem;
-    display: flex;
-    position: relative;
-    padding: 0 1rem;
-  
-    
- }
-
-
-
- .orden-now-container{
-    display: grid;
-    
- }
-
- .caracteristics-dishes{
-    display: grid;
- }
-
- .dishes-caracteristics-container{
-    display: grid;
-    align-content: center;
-    gap: 1rem;
-    margin-top: 1rem;
- }
-
- .dishes-caracteristics{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-size: 55px;
-    padding: 0;
-    margin: 0;
- }
-
- .buy-caracteristics-container{
-    display: grid;
-    padding: 3rem;
-    margin-top: 3rem
- }
-
- .buy-container{
-    padding: 3rem;
-    align-content: center;
-    align-items: center;
-    text-align: center;
- }
 
 
  /*Pagina2*/
