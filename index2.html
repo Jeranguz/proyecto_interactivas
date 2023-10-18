@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="./css/main.css">
 
 <style>
+
     .buy-dish-container {
         display: grid;
         width: 88vw;
@@ -23,10 +24,9 @@
     }
 
     .img-thumb {
-
-        align-content: center;
-
-
+    display: flex;
+    position: relative;
+    padding: 0 1rem;
     }
 
     .dishes-img {
@@ -39,14 +39,15 @@
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 1rem;
         margin-bottom: 3rem;
-
+        margin-top: 3rem;
         place-items: center
     }
 
     .tag {
-        display: flex;
+        display: grid;
         text-align: center;
-        align-items: center;
+       
+        place-items: center;
     }
 
     .tag-img {
@@ -55,7 +56,7 @@
     }
 
     .order-now-bottom {
-        background: var(--clr-featured);
+        background: var(--clr-main);
         border: solid var(--clr-buttom);
         border-radius: 2rem;
         border-width: 0.3rem;
@@ -73,6 +74,51 @@
     font-weight: var(--fw-md);
     text-decoration: none;
     }
+
+   
+
+
+    .dish-price {
+    
+        display: block;
+    position: absolute;
+    background: var(--clr-buttom);
+    color: var(--clr-withe);
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1% 10%;
+    top: 0;
+    left: 10%;
+    transform: translate(10%, 0);
+    font-family: var(--ff-mon);
+    font-size: 2rem;
+    
+}
+
+
+.return-bottom {
+    position: absolute;
+    left: 8rem;
+    top: 12rem;
+    display: flex;
+    border: .2rem solid var(--clr-buttom);
+    color: var(--clr-buttom);
+    background-color: var(--clr-main);
+    border-radius: 2rem;
+    
+    cursor: pointer;
+    /* font-family: var(--ff-mon); */
+    font-size: 2.5rem;
+   
+}
+
+.left-arrow{
+    padding: 0 2rem 0 2rem;
+}
+
+
+    
 </style>
 
 <body>
@@ -94,21 +140,28 @@
     </header>
 
     <main class="pag2">
-
+        <button class="return-bottom">
+           <div class="left-arrow">←</div>
+        </button>
+        
+       
         <section class="buy-dish-container">
             <h2 class="featured-text">Farikal</h2>
             <div class="img-thumb">
+                <div class="dish-price-container">
+                    <span class="dish-price">$12.99</span>
+                </div>
                 <img class="dishes-img" src="./img/f.png" alt="">
             </div>
             <p class="porpuse-text">It consists of pieces of mutton with bone, cabbage, whole black pepper</p>
 
             <section class="tags-container">
                 <div class="tag">
-                    <img class="tag-img" src="./img/heart.svg" alt="">
+                    <img class="tag-img" src="./img/categories.svg" alt="">
                     <span class="porpuse-text"> Vegetarian</span>
                 </div>
                 <div class="tag">
-                    <img class="tag-img" src="./img/heart.svg" alt="">
+                    <img class="tag-img" src="./img/people.svg" alt="">
                     <span class="porpuse-text"> 1 </span>
                 </div>
                 <div class="tag">
