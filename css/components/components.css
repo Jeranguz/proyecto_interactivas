@@ -14,18 +14,17 @@
     font-family: var(--ff-mon);
     font-size: 1.4rem;
     font-weight: var(--fw-md);
-    padding: 1rem 4rem;
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 1rem 1.5rem;
     background: var(--clr-buttom);
     border-radius: 3rem;
     text-decoration: none;
     color: var(--clr-white);
+    margin-bottom: 2rem;
 }
-/* .carousel-arrow-left{
-    background: url(../../img/left-arrow.png);
-}
-.carousel-arrow-right{
-    background: url(../../img/right-arrow.png);
-}    */
+
 .carousel-arrow{
     background: none;
     border-style: none;
@@ -69,3 +68,91 @@
     width: 2.5rem;
     height: 2.5rem;
 }
+
+/*Pag2*/
+.img-thumb {
+    display: flex;
+    position: relative;
+    padding: 0 1rem;
+}
+
+.dishes-img {
+    width: 100%;
+    border-radius: 3rem;
+}
+
+
+.tag-img {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+.order-now-bottom {
+    background: var(--clr-main);
+    border: solid var(--clr-buttom);
+    border-radius: 2rem;
+    border-width: 0.3rem;
+    color: var(--clr-buttom);
+
+
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    width: 80%;
+
+    font-family: var(--ff-mon);
+    font-size: var(--fs-main-text);
+    font-weight: var(--fw-md);
+    text-decoration: none;
+}
+
+
+
+
+.dish-price {
+
+    display: block;
+    position: absolute;
+    background: var(--clr-buttom);
+    color: var(--clr-withe);
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1% 10%;
+    top: 0;
+    left: 10%;
+    transform: translate(10%, 0);
+    font-family: var(--ff-mon);
+    font-size: 2rem;
+
+}
+
+
+.return-bottom {
+    position: absolute;
+    left: 8rem;
+    top: 12rem;
+    display: flex;
+    border: .2rem solid var(--clr-buttom);
+    color: var(--clr-buttom);
+    background-color: var(--clr-main);
+    border-radius: 2rem;
+
+    cursor: pointer;
+    /* font-family: var(--ff-mon); */
+    font-size: 2.5rem;
+
+}
+
+.left-arrow {
+    padding: 0 2rem 0 2rem;
+    text-decoration: none;
+}
+
+
+.line {
+    margin-top: 4rem;
+}
+/*Pag2*/

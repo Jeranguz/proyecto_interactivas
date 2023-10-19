@@ -12,8 +12,7 @@
 }
 
 .food-container {
-    width: 22.88rem;
-    height: 30rem;
+   display: grid;
     background: var(--clr-featured);
     border-radius: 6rem;
     text-align: center;
@@ -86,18 +85,51 @@
 
 /*Pagina2*/
 
+.buy-dish-container {
+    display: grid;
+    width: 88vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 7rem;
 
+}
+
+.tags-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    place-items: center
+}
+
+.tag {
+    display: grid;
+    text-align: center;
+
+    place-items: center;
+}
+
+.realated-dishes-container {
+    margin-top: 4rem;
+}
 
 
  /*Pagina2*/
 
  /* Menu */
- .category-section{
-    width: 80vw;
-    margin: auto;
+.category-section{
+    text-align: center;
 }
+
 .category-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
+    width: 90vw;
+    margin:auto;
 }
+
+

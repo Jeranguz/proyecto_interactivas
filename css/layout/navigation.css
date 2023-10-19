@@ -33,7 +33,7 @@
     background: var(--clr-buttom);
     justify-content: space-between;
     position: sticky;
-    top: 0;
+    transition: top 0.3s ease;
     z-index: 10;
 }
 .navigation-category-element{

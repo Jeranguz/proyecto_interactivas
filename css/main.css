@@ -59,8 +59,8 @@ body{
        
     }
     .food-container{
-        width: 19.88rem;
         transition: none;
+        
     }
     .food-container:hover {
         transform: none; /* Escala al 110% en el evento hover */

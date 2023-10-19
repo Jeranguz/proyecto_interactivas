@@ -23,8 +23,8 @@
         </div>
         <img class="search-img" src="./img/lupa.png" alt="Lupa">
     </nav>
-    <nav class="navigation-category">
-        <div class="navigation-category-div">
+    <nav id="nav-category" class="navigation-category">
+        <div  class="navigation-category-div">
             <ul class="navigation-list">
                 <li><a class="navigation-element navigation-category-element" href="#salads">Salads</a></li>
                 <li><a class="navigation-element navigation-category-element" href="#main-dishes">Main Dishes</a></li>
@@ -316,8 +316,28 @@
             <a href=""> <img src="./img/Group 30.svg" alt=""></a>
         </div>
     </div>
-       
-
 </footer>
+
+<script>
+   
+
+    var prevScrollpos = window.pageYOffset;
+
+window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("nav-category").style.position = "sticky";// Mostrar la barra de navegación al desplazar hacia arriba
+        document.getElementById("nav-category").style.top = "0px";
+    } else {
+        // Ocultar la barra de navegación al desplazar hacia abajo
+        document.getElementById("nav-category").style.position = "absolute";
+        document.getElementById("nav-category").style.top = "-60px"; // Puedes ajustar el valor según tu diseño
+    }
+    
+    prevScrollpos = currentScrollPos;
+}
+
+</script>
 </body>
 </html>

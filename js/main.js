@@ -1,9 +1,9 @@
 const swiper = new Swiper(".swiper-hero", {
-    // Optional parameters
+   
     slidesPerView: 1,
     spaceBetween: 55,
-   loopAdditionalSlides:5,
-   parallax: true,
+    loopAdditionalSlides:5,
+    parallax: true,
     
     loop: true,
 

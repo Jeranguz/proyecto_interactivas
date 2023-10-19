@@ -84,7 +84,7 @@
 .menu-title{
     font-family: var(--ff-nor);
     font-size: var(--fs-title);
-    text-align: center;
+    margin-left: 3rem;
     margin-bottom: 0;
 }
 .category-title{

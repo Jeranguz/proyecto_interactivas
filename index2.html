@@ -10,119 +10,8 @@
 </head>
 <link rel="stylesheet" href="./css/main.css">
 
-<style>
-
-    .buy-dish-container {
-        display: grid;
-        width: 88vw;
-        margin: auto;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-top: 7rem;
-
-    }
-
-    .img-thumb {
-    display: flex;
-    position: relative;
-    padding: 0 1rem;
-    }
-
-    .dishes-img {
-        width: 100%;
-        border-radius: 3rem;
-    }
-
-    .tags-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 1rem;
-        margin-bottom: 3rem;
-        margin-top: 3rem;
-        place-items: center
-    }
-
-    .tag {
-        display: grid;
-        text-align: center;
-       
-        place-items: center;
-    }
-
-    .tag-img {
-        width: 3rem;
-        height: 3rem;
-    }
-
-    .order-now-bottom {
-        background: var(--clr-main);
-        border: solid var(--clr-buttom);
-        border-radius: 2rem;
-        border-width: 0.3rem;
-        color: var(--clr-buttom);
-       
-
-        justify-content: center;
-        text-align: center;
-        padding: 1rem;
-        margin: auto;
-        width: 80%;
-
-        font-family: var(--ff-mon);
-    font-size: var(--fs-main-text);
-    font-weight: var(--fw-md);
-    text-decoration: none;
-    }
-
-   
-
-
-    .dish-price {
-    
-        display: block;
-    position: absolute;
-    background: var(--clr-buttom);
-    color: var(--clr-withe);
-    text-align: center;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    padding: 1% 10%;
-    top: 0;
-    left: 10%;
-    transform: translate(10%, 0);
-    font-family: var(--ff-mon);
-    font-size: 2rem;
-    
-}
-
-
-.return-bottom {
-    position: absolute;
-    left: 8rem;
-    top: 12rem;
-    display: flex;
-    border: .2rem solid var(--clr-buttom);
-    color: var(--clr-buttom);
-    background-color: var(--clr-main);
-    border-radius: 2rem;
-    
-    cursor: pointer;
-    /* font-family: var(--ff-mon); */
-    font-size: 2.5rem;
-   
-}
-
-.left-arrow{
-    padding: 0 2rem 0 2rem;
-}
-
-
-    
-</style>
-
 <body>
-    <header >
+    <header>
         <nav class="top-nav">
             <a href="index.html"><img class="logo" src="./img/logo.png" alt="Restaurant logo"></a>
             <div class="navigation-lists">
@@ -141,11 +30,11 @@
 
     <main class="pag2">
         <button class="return-bottom">
-           <div class="left-arrow">←</div>
+            <a href="index.html" class="left-arrow">←</a>
         </button>
-        
-       
-        <section class="buy-dish-container">
+
+
+        <section id="buy" class="buy-dish-container">
             <h2 class="featured-text">Farikal</h2>
             <div class="img-thumb">
                 <div class="dish-price-container">
@@ -170,6 +59,41 @@
                 </div>
             </section>
             <a class="order-now-bottom" href="">Order Now</a>
+        </section>
+        <hr class="line">
+        <section class="realated-dishes-container">
+            <h2 class="featured-text">Related Dishesa</h2>
+            <div class="category-container">
+                <div class="food-container">
+                    <img class="featured-img" src="./img/food-example.png" alt="Food">
+                    <h3 class="food-text">Fårikål</h3>
+                    <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper
+                    </p>
+                    <a class="details-buttom" href="index2.html">See details</a>
+                </div>
+                <div class="food-container">
+                    <img class="featured-img" src="./img/food-example.png" alt="Food">
+                    <h3 class="food-text">Fårikål</h3>
+                    <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper
+                    </p>
+                    <a class="details-buttom" href="index2.html">See details</a>
+                </div>
+                <div class="food-container">
+                    <img class="featured-img" src="./img/food-example.png" alt="Food">
+                    <h3 class="food-text">Fårikål</h3>
+                    <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper
+                    </p>
+                    <a class="details-buttom" href="index2.html">See details</a>
+                </div>
+
+                <div class="food-container">
+                    <img class="featured-img" src="./img/food-example.png" alt="Food">
+                    <h3 class="food-text">Fårikål</h3>
+                    <p class="food-description"> It consists of pieces of mutton with bone, cabbage, whole black pepper
+                    </p>
+                    <a class="details-buttom" href="index2.html">See details</a>
+                </div>
+            </div>
         </section>
 
         <footer class="footer-container">
@@ -222,6 +146,8 @@
         </footer>
 
     </main>
+
+    
 
 </body>
 
