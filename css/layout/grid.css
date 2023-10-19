@@ -28,7 +28,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   
-    background: var(--clr-caracteristcs);
+    background: var(--clr-main);
     margin: auto;
     border-radius: 7rem;
     max-width: 78vw;
@@ -62,17 +62,14 @@
 .our-porpuse-container{
     display: grid;
     margin: auto;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-   width: 78vw;
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr)); 
+    /* width: 78vw; */
+    max-width: 78vw;
     gap: 1rem;
     margin-top: 5.75rem;
+    text-align: center;
 }
 
-.our-porpuse-section{
-    display: grid;
-    padding: 1rem;
-    margin: auto;
-}
 
 .btn-container{
     display: flex;

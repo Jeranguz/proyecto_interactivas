@@ -39,6 +39,7 @@
 
 .flags-img{
     width: 100%;
+    margin: auto;
    
 }
 
@@ -155,50 +156,3 @@
 .line {
     margin-top: 4rem;
 }
-
-
-/*hamburger-menu*/
-   
-
-
-
-    input[type="checkbox"] {
-        display: none;
-    }
-    
-    /* Estilo base para el ícono del menú hamburguesa */
-    .hamburger-bottom {
-        display: none;
-        flex-direction: column;
-        width:  2.8rem;
-        height: 3rem;
-        border: 0;
-        background: transparent;
-        gap: .60rem;
-        
-    }
-    
-    /* Estilo de las líneas del menú hamburguesa */
-    .hamburger-bottom div {
-        background: var(--clr-buttom);
-        height: 4px;
-        width: 100%;
-        transition: all .5s;
-        transform-origin: left ;
-    }
-    
-    /* Estilo de las líneas cuando el checkbox está marcado (menú abierto) */
-    input[type="checkbox"]:checked + .hamburger-bottom > div:first-child {
-        transform: rotate(40deg);
-    }
-    
-    input[type="checkbox"]:checked + .hamburger-bottom > div:nth-child(2) {
-        opacity: 0;
-    }
-    
-    input[type="checkbox"]:checked + .hamburger-bottom > div:last-child {
-        transform: rotate(-40deg);
-    }
-
-
-/*hamburguer-menu*/
