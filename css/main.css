@@ -46,6 +46,12 @@ body{
     .header-container{
         height: 45rem; 
     }
+
+    .hamburger-bottom{
+        display: flex;
+        position: sticky;
+        z-index: 11;
+    }
   
 }
 
@@ -65,9 +71,19 @@ body{
     .food-container:hover {
         transform: none; /* Escala al 110% en el evento hover */
       }
-
-  
-  
-    
+   
 }
 
+
+
+
+@media (max-width: 500px){ 
+    .navigation-list{
+        display: grid;
+        gap: 2rem;
+        text-align: center;
+        list-style-type: none;
+        align-items: center;
+        padding: 0;
+    }   
+}
