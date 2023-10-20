@@ -1,7 +1,7 @@
 .main-title {
     font-family: var(--ff-nor);
     font-size: var(--fs-title);
-    font-size: clamp(16px, 7vw, 80px);
+    font-size: clamp(48px, 7vw, 80px);
     font-weight: var(--fw-black);
     margin: auto;
     margin-bottom: 1rem;

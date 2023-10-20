@@ -56,6 +56,9 @@ body{
         transition: none;
         width: 21.5rem;
     }
+    .main-title{
+        margin-top: 10rem;
+    }
     .food-container:hover {
         transform: none; /* Escala al 110% en el evento hover */
       } 
