@@ -28,7 +28,11 @@
     list-style: none;
     font-family:var(--ff-mon);
     font-weight: 100;
-    
+    transition: color 0.3s ease;
+}
+
+.nav-bottom-link:hover{
+    color: var(--clr-buttom);
 }
 
 .nav-bottom-list{
