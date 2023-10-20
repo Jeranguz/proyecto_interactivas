@@ -6,9 +6,14 @@
     font-weight: var(--fw-md);
     text-decoration: none;
     align-items: center;
-    background: var(--clr-buttom);
+    background-color: var(--clr-buttom);
     padding: 0.7rem 3.5rem;
     border-radius: 2.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-explore:hover{
+    background-color: white;
+    color: var(--clr-buttom);
 }
 .details-buttom{
     font-family: var(--ff-mon);
@@ -18,11 +23,16 @@
     width: 50%;
     margin: auto;
     padding: 1rem 1.5rem;
-    background: var(--clr-buttom);
+    background-color: var(--clr-buttom);
     border-radius: 3rem;
     text-decoration: none;
     color: var(--clr-white);
     margin-bottom: 2rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.details-buttom:hover{
+    background-color: #090D18;
+    /* color: var(--clr-black); */
 }
 
 .carousel-arrow{
@@ -90,7 +100,7 @@
 
 
 .order-now-bottom {
-    background: var(--clr-main);
+    background-color: var(--clr-caracteristcs);
     border: solid var(--clr-buttom);
     border-radius: 2rem;
     border-width: 0.3rem;
@@ -107,6 +117,11 @@
     font-size: var(--fs-main-text);
     font-weight: var(--fw-md);
     text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.order-now-bottom:hover{
+    background-color: var(--clr-buttom);
+    color: var(--clr-caracteristcs);
 }
 
 
@@ -131,25 +146,48 @@
 }
 
 
-.return-bottom {
+.return-bottom{
     position: absolute;
     left: 8rem;
     top: 12rem;
     display: flex;
     border: .2rem solid var(--clr-buttom);
     color: var(--clr-buttom);
-    background-color: var(--clr-main);
+    background-color: var(--clr-caracteristcs);
     border-radius: 2rem;
-
+    overflow: hidden;
     cursor: pointer;
     /* font-family: var(--ff-mon); */
     font-size: 2.5rem;
-
+    
+    
 }
+.return-bottom ::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    left: 0;
+    top: -200%;
+    background: var(--clr-buttom);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    z-index: -1;
+}
+.return-bottom :hover::before{
+    top: 0;
+    border-radius: 0%;
+    }
 
-.left-arrow {
+
+.left-arrow{
+    color: var(--clr-white);
     padding: 0 2rem 0 2rem;
     text-decoration: none;
+    z-index: 100;
+}
+.left-arrow:hover {
+    color: var(--clr-black); /* Cambia el color al pasar el cursor */
 }
 
 

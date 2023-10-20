@@ -13,16 +13,17 @@
 
 .food-container {
    display: grid;
-    background: var(--clr-featured);
+    background-color: var(--clr-featured);
     border-radius: 6rem;
     text-align: center;
-    transition: transform 0.3s ease;
+    color: var(--clr-white);
+    transition: transform 0.3s ease, color 0.3s ease;
     
   }
-  
-  .food-container:hover {
-    transform: scale(1.1); /* Escala al 110% en el evento hover */
-  }
+   .food-container:hover {
+    transform: scale(1.05); 
+    color: var();
+  } 
  
 .caracteristics-container{
     display: grid;

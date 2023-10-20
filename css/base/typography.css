@@ -4,7 +4,7 @@
     font-size: var(--fs-title);
     font-size: clamp(16px, 7vw, 80px);
     margin: auto;
-    margin-top: 10rem;
+    margin-top: 15rem;
     margin-bottom: 1rem;
 }
 .main-text{
