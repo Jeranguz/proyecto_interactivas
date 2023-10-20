@@ -1,9 +1,9 @@
 .top-nav {
-    display: flex;
     align-items: center;
-    padding: 0.5rem 4.125rem;
     background: var(--clr-white);
+    display: flex;
     justify-content: space-between;
+    padding: 0.5rem 4.125rem;
 }
 
 .logo {
@@ -12,27 +12,27 @@
 }
 
 .navigation-list {
+    align-items: center;
     display: flex;
     gap: 4rem;
     list-style-type: none;
-    align-items: center;
-    padding: 0;
     margin-left: auto;
+    padding: 0;
 }
 
 .navigation-element {
-    text-decoration: none;
+    align-content: center;
     color: var(--clr-black);
     font-family: var(--ff-mon);
     font-size: var(--fs-md);
     font-weight: var(--fw-md);
-    align-content: center;
+    text-decoration: none;
     text-wrap: nowrap;
     transition: color 0.3s ease;
 }
 .cart{
-    width: 100%;
     height: 3.3rem;
+    width: 100%;
 }
 
 .navigation-element:hover {
@@ -44,16 +44,16 @@
 }
 
 .navigation-category {
+    align-items: center;
+    background: black;
     /* opacity: 4; */
     display: flex;
-    align-items: center;
     /* background: var(--clr-buttom); */
     justify-content: space-between;
+    opacity: 85%;
     /* position: sticky; */
     transition: top 0.3s ease;
     z-index: 1;
-    background: black;
-    opacity: 85%;
 }
 
 .navigation-category-element {
@@ -93,23 +93,23 @@
     }
 
     .mobile-btn {
-        position: fixed;
-        top: 4rem;
-        right: 2rem;
-        width: 1.5rem;
         height: 1.5rem;
+        position: fixed;
+        right: 2rem;
+        top: 4rem;
+        width: 1.5rem;
         z-index: 3;
     }
 
     .mobile-btn>span,
     .mobile-btn>span::before,
     .mobile-btn>span::after {
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: .2rem;
         background: var(--clr-buttom);
+        display: block;
+        height: .2rem;
+        position: absolute;
         transition-duration: .25s;
+        width: 100%;
     }
 
     .mobile-btn>span::before {
@@ -127,8 +127,8 @@
         display: block;
         opacity: 0;
         position: fixed;
-        top: 3.5rem;
         right: 2.25rem;
+        top: 3.5rem;
         z-index: 4;
     }
 
@@ -156,21 +156,21 @@
     /* mobile check */
 
     .navigation-lists {
+        align-content: center;
+        background: var(--clr-white);
+        border-bottom-right-radius: 3rem;
         display: grid;
-        position: fixed;
-        margin: 0;
-        top: 0;
-        right: 62rem;
-        width: 57%;
         gap: 2rem;
         height: 38rem;
-        background: var(--clr-white);
-        align-content: center;
-        text-align: left;
+        margin: 0;
         place-content: center;
-        z-index: 2;
+        position: fixed;
+        right: 62rem;
+        text-align: left;
+        top: 0;
         transition: right .25s;
-        border-bottom-right-radius: 3rem;
+        width: 57%;
+        z-index: 2;
     }
 
 

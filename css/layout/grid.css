@@ -6,43 +6,43 @@
 }
 .featured-container{
     display: flex;
-    width: 103rem;
     margin: auto;
+    width: 103rem;
     
 }
 
 .food-container {
-   display: grid;
     background-color: var(--clr-featured);
     border-radius: 6rem;
-    text-align: center;
     color: var(--clr-white);
-    width: 24.5rem;
+   display: grid;
+    text-align: center;
     transition: transform 0.3s ease, color 0.3s ease;
+    width: 24.5rem;
     
   }
-   .food-container:hover {
-    transform: scale(1.05); 
+   .food-container:hover { 
     color: var();
+    transform: scale(1.05);
   } 
  
 .caracteristics-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
   
     background: var(--clr-main);
-    margin: auto;
     border-radius: 7rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
+    margin: auto;
     max-width: 78vw;
 }
 
 .center{
     display: grid;
     justify-content: center;
-    padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1.625rem;
     padding-right: 1.625rem;
+    padding-top: 1rem;
     text-align: center;
 
 }
@@ -50,33 +50,33 @@
 
 .carrousel-arrows-container{
     display: flex;
-    position: absolute;
     justify-content: space-between;
-    width: 108%;
     margin-top: 12rem;
+    position: absolute;
+    width: 108%;
 }
 .navigation-lists{
-    justify-content: space-around;
     display: flex;
+    justify-content: space-around;
     width: 100%;
 }
 
 
 .our-porpuse-container{
-    display: grid;
-    margin: auto;
-    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr)); 
-    max-width: 78vw;
-    gap: 1rem;
-    margin-top: 5.75rem;
-    text-align: center;
     align-items: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+    margin: auto;
+    margin-top: 5.75rem; 
+    max-width: 78vw;
+    text-align: center;
 }
 
 
 .btn-container{
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
     margin-bottom: 5rem;
 }
@@ -84,35 +84,35 @@
 /*SLIDER*/
 .swiper-hero {
     display: flex;
-    width: 80vw;
+    justify-content: center;
     margin: auto;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
-    justify-content: center;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    width: 80vw;
 }
 
 @media (max-width: 767.98px) {
     .swiper-hero {
         display: flex;
-        width: 100%;
-        margin: auto;
         justify-content: center;
-        margin-top: 4rem;
+        margin: auto;
         margin-bottom: 4rem;
+        margin-top: 4rem;
+        width: 100%;
     }
 
 }
 
 .swiper-hero .swiper-slide {
-    width: 350px;
-    display: flex;
-    justify-content: center;
     /* Centra horizontalmente */
     align-items: center;
+    display: flex;
+    justify-content: center;
     /* Centra verticalmente */
     text-align: center;
+    width: 350px;
 }
 
 /*SLIDER*/
@@ -122,20 +122,20 @@
 /*Pagina2*/
 
 .buy-dish-container {
-    display: grid;
-    width: 88vw;
-    margin: auto;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    display: grid;
+    justify-content: center;
+    margin: auto;
     margin-top: 7rem;
+    text-align: center;
+    width: 88vw;
 
 }
 
 .tags-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     margin-bottom: 3rem;
     margin-top: 3rem;
     place-items: center
@@ -143,9 +143,9 @@
 
 .tag {
     display: grid;
-    text-align: center;
 
     place-items: center;
+    text-align: center;
 }
 
 .realated-dishes-container {
@@ -161,10 +161,10 @@
 
 .category-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(362px, 1fr));
     gap: 2rem;
-    width: 90vw;
+    grid-template-columns: repeat(auto-fit, minmax(362px, 1fr));
     margin:auto;
+    width: 90vw;
 }
 
 

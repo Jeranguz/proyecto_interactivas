@@ -17,10 +17,10 @@ body{
     background: var(--clr-caracteristcs);
 }
 .featured-img{
-    border-top-right-radius: 6rem;
     border-top-left-radius: 6rem;
-    width: 100%;
+    border-top-right-radius: 6rem;
     height: 14.2rem;
+    width: 100%;
 }
 .swiper{
     width: 80%;
@@ -76,11 +76,11 @@ body{
 
 @media (max-width: 1000px){ 
     .navigation-list{
+        align-items: center;
         display: grid;
         gap: 2rem;
-        text-align: center;
         list-style-type: none;
-        align-items: center;
         padding: 0;
+        text-align: center;
     }   
 }
