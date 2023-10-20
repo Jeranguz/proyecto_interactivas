@@ -30,6 +30,10 @@
     text-wrap: nowrap;
     transition: color 0.3s ease;
 }
+.cart{
+    width: 100%;
+    height: 3.3rem;
+}
 
 .navigation-element:hover {
     color: var(--clr-buttom)
