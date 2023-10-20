@@ -31,9 +31,6 @@ body{
 .swiper-button-prev{
     color: var(--clr-buttom);
 }
-.divxd{
-    position: relative;
-}
 
 @media (max-width: 1136px){
     .top-nav{
@@ -60,14 +57,24 @@ body{
     }
     .food-container:hover {
         transform: none; /* Escala al 110% en el evento hover */
-      }
-   
+      } 
+}
+
+
+@media (max-width: 700px){
+    .swiper-button-next{
+       display: none;
+    }
+    .swiper-button-prev{
+        display: none;
+    }
+
 }
 
 
 
 
-@media (max-width: 500px){ 
+@media (max-width: 1000px){ 
     .navigation-list{
         display: grid;
         gap: 2rem;

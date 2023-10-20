@@ -2,7 +2,6 @@
     font-family: var(--ff-nor);
     font-weight: var(--fw-black);
     font-size: var(--fs-title);
-    padding: 0  3rem 0;
     font-size: clamp(16px, 7vw, 80px);
     margin: auto;
     margin-top: 10rem;
@@ -10,7 +9,7 @@
 }
 .main-text{
     font-family: var(--ff-mon);
-    font-size: var(--fs-main-text);
+    font-size: clamp(16px, 2vw, var(--fs-subtitle));
     margin-bottom: 7rem;
 }
 .featured-text{
@@ -19,7 +18,6 @@
     font-weight: var(--fw-black);
     text-align: center;
     margin: 2rem 0 2rem 0;
-
 }
 .food-text{
     font-family: var(--ff-mon);

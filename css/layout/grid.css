@@ -26,7 +26,7 @@
  
 .caracteristics-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
   
     background: var(--clr-main);
     margin: auto;
@@ -54,8 +54,9 @@
     margin-top: 12rem;
 }
 .navigation-lists{
+    justify-content: space-around;
     display: flex;
-    gap: 15rem;
+    width: 100%;
 }
 
 
@@ -63,11 +64,11 @@
     display: grid;
     margin: auto;
     grid-template-columns: repeat(auto-fit, minmax(285px, 1fr)); 
-    /* width: 78vw; */
     max-width: 78vw;
     gap: 1rem;
     margin-top: 5.75rem;
     text-align: center;
+    align-items: center;
 }
 
 
@@ -77,6 +78,42 @@
     justify-content: center;
     margin-bottom: 5rem;
 }
+
+/*SLIDER*/
+.swiper-hero {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 767.98px) {
+    .swiper-hero {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+}
+
+.swiper-hero .swiper-slide {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    text-align: center;
+}
+
+/*SLIDER*/
 
 
 
@@ -112,7 +149,6 @@
 .realated-dishes-container {
     margin-top: 4rem;
 }
-
 
  /*Pagina2*/
 
